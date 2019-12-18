@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <div>
             <nav id="footerBody" className="uk-navbar-container  uk-text-center " uk-navbar='true' uk-navbar="mode: click" uk-grid='true'>
-              <div className="uk-navbar-center uk-visible@m">
+              <div className="uk-navbar-center ">
 
                   <ul id="middlenav" className="uk-navbar-nav">    
                   <li className=""><a id="mobile-links" href="/"><b><i>Surreality Massage Bitch</i></b></a></li>                                                                                                                                             

@@ -28,20 +28,21 @@ class Header extends Component {
 
                         {/* mobile view */}
                         <div className="uk-hidden@m uk-margin-auto-vertical">
-                            <a style={{ color: 'black' }} id="mobileMenu" uk-icon="icon: menu; ratio: 2.5" uk-toggle="target: #offcanvas-nav-primary"></a>
+                            <a style={{ color: 'white' }} id="mobileMenu" uk-icon="icon: menu; ratio: 2.5" uk-toggle="target: #offcanvas-nav-primary"></a>
                             <div className="uk-offcanvas-content">
                                 <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                                     <div className="uk-offcanvas-bar">
                                         <ul className="uk-nav uk-nav-default uk-text-center">
                                             <li className="uk-nav-header">
                                                 <a className="uk-offcanvas-close" uk-close>X</a>
-                                                <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="" alt="" width="100" height="75"  ></img></a>
+                                                <p>Logo here</p>
+                                                {/* <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="" alt="" width="100" height="75"  ></img></a> */}
                                             </li>
-                                            <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '8px solid #7C619B', width: '60%' }}></hr>
+                                            <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '2px solid white', width: '60%' }}></hr>
 
-                                            <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
-                                            <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/About">About</a></li>
-                                            <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Contact">Contact</a></li>
+                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
+                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/About">About</a></li>
+                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>

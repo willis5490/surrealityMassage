@@ -90,13 +90,11 @@ class ContactForm extends Component {
   // render nav
   render() {
     return (
-      <div id='contactWrapper' className=" uk-animation-scale-up uk-transform-origin-top-right">
+      <div id='' className=" ">
        <div className="uk-section">
-         <h1  id="contact" className="uk-heading-line uk-text-center sectionHeaders">{this.props.contactHeader}</h1>
+         <h1  id="contact" className="uk-heading-line uk-text-center uk-margin-medium-bottom sectionHeaders">{this.props.contactHeader}</h1>
 
-         <h3 style={{color:'white'}} className='contactHeader uk-text-center contacth2 uk-margin-remove'>{this.props.contactText}</h3>
-
-         <h4 style={{color:'white'}} id='formheader' className='uk-text-center'>Fill out your information below.</h4>
+         {/* <h4 style={{color:'black'}} id='formheader' className='uk-text-center'>Fill out your information below.</h4> */}
 
          <div className="formDiv ">
            <form>
