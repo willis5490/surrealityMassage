@@ -32,7 +32,7 @@ class Header extends Component {
                         <div className="uk-hidden@m uk-margin-auto-vertical">
                             <a style={{ color: 'white' }} id="mobileMenu" uk-icon="icon: menu; ratio: 2.5" uk-toggle="target: #offcanvas-nav-primary"></a>
                             <div className="uk-offcanvas-content">
-                                <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                                <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; mode: push">
                                     <div className="uk-offcanvas-bar">
                                         <ul className="uk-nav uk-nav-default uk-text-center">
                                             <li className="uk-nav-header">
