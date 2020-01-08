@@ -21,6 +21,9 @@ class Header extends Component {
 
                             </ul>
                         </div>
+                        <div  className="uk-navbar-right uk-visible@m">
+                            <a href='/'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButton'><b>SCHEDULE APPOINTMENT</b></button></a>
+                        </div>
                         {/* <div style={{ paddingRight: '20px' }} className="uk-navbar-right uk-visible@m">
                             <ul class="uk-navbar-nav">
                                 <li class="uk-active"> <a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-3x"></i></a></li>
@@ -52,8 +55,7 @@ class Header extends Component {
                         </div>
                         <div className="uk-navbar-right uk-hidden@m">
                             <ul className="uk-navbar-nav">
-                                <li class="uk-active"> <a style={{ color: 'black' }} className='' target="_blank" rel="noopener noreferrer" href=""><i class="fab fa-instagram fa-2x"></i></a></li>
-                                <li class="uk-active"><a style={{ color: 'black' }} className='mobileSocialMediaHeaderIcons' target="_blank" rel="noopener noreferrer" href=""><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                            <a href='/'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButtonMobile'><b>SCHEDULE APPOINTMENT</b></button></a>
                             </ul>
                         </div>
                     </nav>

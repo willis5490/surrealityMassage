@@ -138,7 +138,7 @@ class ContactForm extends Component {
              </fieldset>
            </form>
            
-           <button onClick={this.sendEmail} id="send-button" type="submit" name="action" className="uk-align-center uk-button uk-margin-auto uk-button-primary uk-button-large uk-width-large">Send</button>
+           <button style={{color:'black', backgroundColor:'white',borderRadius:'12px'}} onClick={this.sendEmail} id="send-button" type="submit" name="action" className="uk-align-center uk-button uk-margin-auto uk-button-primary uk-button-large uk-width-large"><b>SEND</b></button>
          </div>
          <ToastContainer position="bottom-center" autoClose={4000} />        
        </div>

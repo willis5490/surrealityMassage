@@ -15,7 +15,7 @@ class Contact extends Component {
           <div id='wrapper1Contact'>
             <div className='uk-container'>
                 <div className='' uk-grid='true'>
-                    <div className='uk-width-1-1 uk-margin-large-top'>                    
+                    <div className='uk-width-1-1  contactFormDiv'>                    
                         <ContactForm contactHeader={'Contact'}></ContactForm>
                     </div>
                 </div>

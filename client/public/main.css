@@ -5,6 +5,10 @@
 #mobile-links{
     color: white;     
 }
+.appointmentButton{
+    margin-right: 25px;
+    border-radius: 12px;
+}
 
 /* Notifications */
 .Toastify__toast-container--bottom-center{
@@ -20,7 +24,54 @@
       
 }
 #footerMainDiv{
+    background-color: #7D6036;
+}
+
+/* About */
+.aboutPara{
+    margin-right: 200px;
+    margin-left: 200px;
+    color: white;
+}
+#wrapper1About{
     background-color: #AB8349;
+}
+
+/* Contact */
+.contactFormDiv{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#send-button:hover{
+ background-color: #AB8349 !important;
+}
+
+/* HOME */
+.headerHome{
+    font-size: 80px;
+}
+#wrapper1Home{
+    background: url('https://cdn.pixabay.com/photo/2014/03/11/22/56/wellness-285587_1280.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#wrapper3Home{
+    background-color: #AB8349;
+}
+#wrapper1Contact{
+    background-color: #AB8349;
+}
+.specializeCards{
+    background-color: #AB8349;
+}
+.modalityCars:hover{
+    background-color: #AB8349 !important;
+}
+.appointmentButtonMobile{
+    margin: 20px;
+    border-radius: 12px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -33,6 +84,16 @@
         margin-bottom: 20px !important;
         margin-top: 10px !important;
     }
+    /* About */
+    .aboutPara{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    /* Contact */
+    .contactFormDiv{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 
 }
 
@@ -43,7 +104,24 @@
         padding-right: 20px !important;
         padding-left: 5px !important;
     }
-
+    /* About */
+    .aboutPara{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /* Contact */
+    .contactFormDiv{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .headerHome{
+        font-size: 50px;
+    }
+    .appointmentButtonMobile{
+        margin: 20px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
 
 }
 
@@ -55,4 +133,9 @@
         padding-left: 5px !important;
     }
 
+    /* HOME */
+    .appointmentButtonMobile{
+        margin: 20px;
+        font-size: 10px;
+    }
 }
