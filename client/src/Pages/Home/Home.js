@@ -16,8 +16,11 @@ class Home extends Component {
           <div uk-grid='true'>
           <div className='uk-width-1-1 uk-margin-large-top uk-margin-large-bottom'>
                 <h1 className=' uk-text-center headerHome'>-Surreality-</h1>
-                <h3 className='uk-text-center' style={{color:'white'}}>
+                <h3 className='uk-text-center uk-visible@m' style={{color:'white'}}>
                   Surreality is the elevated state of being that one <span style={{color:'black'}}>experiences when they receive an amazing massage.</span>
+                        </h3>
+                        <h3 className='uk-text-center uk-hidden@m' style={{color:'black'}}>
+                  Surreality is the elevated state of being that one experiences when they receive an amazing massage.
                         </h3>
                 <div className='uk-container'>
                 <div style={{ backgroundColor: 'tan', padding: '10px' }} className='uk-margin-large-bottom'> 
