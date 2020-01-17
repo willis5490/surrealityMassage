@@ -22,7 +22,7 @@ class Header extends Component {
                             </ul>
                         </div>
                         <div  className="uk-navbar-right uk-visible@m">
-                            <a href='/'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButton'><b>SCHEDULE APPOINTMENT</b></button></a>
+                            <a href='/Appointments'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButton'><b>SCHEDULE APPOINTMENT</b></button></a>
                         </div>
                         {/* <div style={{ paddingRight: '20px' }} className="uk-navbar-right uk-visible@m">
                             <ul class="uk-navbar-nav">
@@ -55,7 +55,7 @@ class Header extends Component {
                         </div>
                         <div className="uk-navbar-right uk-hidden@m">
                             <ul className="uk-navbar-nav">
-                            <a href='/'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButtonMobile'><b>SCHEDULE APPOINTMENT</b></button></a>
+                            <a href='/Appointments'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButtonMobile'><b>SCHEDULE APPOINTMENT</b></button></a>
                             </ul>
                         </div>
                     </nav>

@@ -13,6 +13,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import NotFound from './Pages/NotFound/NotFound'
+import Appointments from './Pages/Appointments/Appointments'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
             <Switch>
               <Route exact path="/" render={props =><Home/>} />                 
               <Route exact path="/About" render={props =><About/>} /> 
-              <Route exact path="/Contact" render={props =><Contact/>} />                             
+              <Route exact path="/Contact" render={props =><Contact/>} />    
+              <Route exact path="/Appointments" render={props =><Appointments/>} />                          
               <Route render={props =><NotFound/>}/>
               
             </Switch>

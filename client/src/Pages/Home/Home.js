@@ -52,7 +52,7 @@ class Home extends Component {
                           consciousness of humanity.</p>
                 <p>Feel better and enhance the well-being of your body, mind and spirit with massage therapy. Allow yourself the
                           chance to experience Surreality</p>
-                <a href='/'><button  style={{color:'white',backgroundColor:'#AB8349',borderRadius:'12px'}} className='uk-button '><b>BOOK NOW !</b></button></a>
+                <a href='/Appointments'><button  style={{color:'white',backgroundColor:'#AB8349',borderRadius:'12px'}} className='uk-button '><b>BOOK NOW !</b></button></a>
 
               </div>
             </div>
@@ -63,36 +63,48 @@ class Home extends Component {
           <div className='uk-container '>
             <div className='uk-margin-large-top uk-margin-large-bottom' uk-grid='true'>
               <div className='uk-width-1-1 uk-text-center '>
-                <h1 className=' uk-text-center'>Modalities</h1>
+                <h1  className=' uk-text-center'>Modalities</h1>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center">Sports Massage</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Sports; animation:  uk-animation-slide-top, uk-animation-slide-bottom">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center uk-remove-margin allCardText">Sports Massage</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Sports' hidden='true'><b>Sports info</b></p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center">Deep Tissue Massage</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Deep">
+                <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center allCardText">Deep Tissue Massage</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Deep' hidden='true'>Deep Tissue info</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center">Reflexology</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Reflexology">
+                <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center allCardText">Reflexology</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Reflexology' hidden='true'>Reflexology info</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center">Acupressure</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Acupressure">
+                <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center allCardText">Acupressure</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Acupressure' hidden='true'>Acupressure Info</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1 '>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center ">Swedish Massage</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Swedish">
+                <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center allCardText ">Swedish Massage</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Swedish' hidden='true'> Swedish Massage info</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
-                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars'>
-                  <h3 class="uk-card-title uk-text-center">Trigger Point Therapy</h3>
+                <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Trigger">
+                <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                  <h3 class="uk-card-title uk-text-center allCardText">Trigger Point Therapy</h3>
+                  <p style={{color:'black'}} className='uk-text-center' id='Trigger' hidden='true'> Trigger Point Therapy info</p>
                 </div>
               </div>
               
@@ -108,28 +120,38 @@ class Home extends Component {
                   <h1 className='uk-margin-large-top uk-text-center'>Specializes In</h1>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards'>
-                    <h3 class="uk-card-title uk-text-center">Rotator cuff/shoulder</h3>
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 class="uk-card-title uk-text-center allCardText">Rotator cuff/shoulder</h3>
+                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='Rotator'></img>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards'>
-                    <h3 class="uk-card-title uk-text-center">TMJ</h3>
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #TMJ">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 class="uk-card-title uk-text-center allCardText">TMJ</h3>
+                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='TMJ'></img>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards'>
-                    <h3 class="uk-card-title uk-text-center">Anterior/posterior hip</h3>
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #hips">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 class="uk-card-title uk-text-center allCardText">Anterior/posterior hip</h3>
+                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='hips'></img>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards'>
-                    <h3 class="uk-card-title uk-text-center">Extremities</h3>
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #extremities">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 class="uk-card-title uk-text-center allCardText">Extremities</h3>
+                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='extremities'></img>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1 uk-margin-large-bottom'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards'>
-                    <h3 class="uk-card-title uk-text-center">Neck</h3>
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #neck">
+                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 class="uk-card-title uk-text-center allCardText">Neck</h3>
+                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='neck'></img>
                   </div>
                 </div>
             </div>
