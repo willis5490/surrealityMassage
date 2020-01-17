@@ -63,7 +63,7 @@ class Home extends Component {
           <div className='uk-container '>
             <div className='uk-margin-large-top uk-margin-large-bottom' uk-grid='true'>
               <div className='uk-width-1-1 uk-text-center '>
-                <h1  className=' uk-text-center'>Modalities</h1>
+                <h1  className=' uk-text-center'>- Modalities -</h1>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Sports; animation:  uk-animation-slide-top, uk-animation-slide-bottom">
@@ -117,7 +117,7 @@ class Home extends Component {
           <div className='uk-container'>
             <div  className='' uk-grid='true'>
               <div className='uk-width-1-1'>
-                  <h1 className='uk-margin-large-top uk-text-center'>Specializes In</h1>
+                  <h1 className='uk-margin-large-top uk-text-center'>- Specializes In -</h1>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator">
@@ -162,7 +162,7 @@ class Home extends Component {
           <div className='uk-container'>
             <div className='' uk-grid='true'>
               <div className='uk-width-1-1  '>
-                <ContactForm contactHeader={'Contact'}></ContactForm>
+                <ContactForm contactHeader={'- Contact -'}></ContactForm>
               </div>
             </div>
           </div>
