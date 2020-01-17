@@ -37,23 +37,22 @@ if (process.env.NODE_ENV === "production") {
 app.use(router);
 
 
-// emial setup
+// email setup
 // =============================================================
 
 app.post('/sendEmail', function(req, res) {
     console.log(req.body)
     let Email = JSON.stringify(req.body.email)
-    let Name = JSON.stringify(req.body.name)
-    let Inquiry = JSON.stringify(req.body.inquiry)
+    let Name = JSON.stringify(req.body.name)    
     let Message = JSON.stringify(req.body.message)
     
     sgMail.setApiKey(process.env.REACT_APP_SENDGRID_KEY);
     const msg = {
-      to: "", 
-      from: "",
-      subject: Name + "wrote you an email, they are interested in " +Inquiry,
+      to: "william.stearns303@gmail.com", 
+      from: "william.stearns303@gmail.com",
+      subject: Name + "wrote you an email for Surreality Massage",
       text: Message,
-      html: Name + " has a message for Bankshot. The message is:   " + Message +"  my email is " + Email,
+      html: Name + " has a message for Surreality Massage. The message says:   " + Message +".  Their email is " + Email,
     };
     sgMail.send(msg);
      

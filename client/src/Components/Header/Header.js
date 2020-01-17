@@ -33,7 +33,7 @@ class Header extends Component {
 
                         {/* mobile view */}
                         <div className="uk-hidden@m uk-margin-auto-vertical">
-                            <a style={{ color: 'white' }} id="mobileMenu" uk-icon="icon: menu; ratio: 2.5" uk-toggle="target: #offcanvas-nav-primary"></a>
+                            <a style={{ color: 'white', paddingLeft:'5px' }} id="mobileMenu" uk-icon="icon: menu; ratio: 2.5" uk-toggle="target: #offcanvas-nav-primary"></a>
                             <div className="uk-offcanvas-content">
                                 <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; mode: push">
                                     <div className="uk-offcanvas-bar">
@@ -45,9 +45,9 @@ class Header extends Component {
                                             </li>
                                             <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '2px solid white', width: '60%' }}></hr>
 
-                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
-                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/About">About</a></li>
-                                            <li className=""><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Contact">Contact</a></li>
+                                            <li className="uk-margin-small-bottom"><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
+                                            <li className="uk-margin-small-bottom"><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/About">About</a></li>
+                                            <li className="uk-margin-small-bottom"><a style={{ color: 'white', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>

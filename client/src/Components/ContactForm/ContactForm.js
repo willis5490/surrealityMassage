@@ -10,10 +10,9 @@ class ContactForm extends Component {
 
   state = {
     name: '',
-    email: '',
-    inquiry: '',
+    email: '',  
     message: '',
-    cappa:false
+    // cappa:false
    }
 
    notify = () => {
@@ -31,11 +30,11 @@ class ContactForm extends Component {
       position: toast.POSITION.BOTTOM_CENTER
     });
   };
-  notifyError2 = () => {
-    toast.error("You Must Verify You Are Not A Robot !", {
-      position: toast.POSITION.BOTTOM_CENTER
-    });
-  };
+  // notifyError2 = () => {
+  //   toast.error("You Must Verify You Are Not A Robot !", {
+  //     position: toast.POSITION.BOTTOM_CENTER
+  //   });
+  // };
 
    sendEmail = event => {
     //  event.preventDefault()
@@ -46,14 +45,13 @@ class ContactForm extends Component {
      }else if(this.state.message === ''){
       this.notifyError()
      }
-     else if(this.state.cappa === false){
-      this.notifyError2()
-     }
+    //  else if(this.state.cappa === false){
+    //   this.notifyError2()
+    //  }
      else {
-      axios.post("https://www..com/sendEmail", {
+      axios.post("https://surrealitymassage.herokuapp.com/sendEmail", {
         email: this.state.email,
-         name: this.state.name,
-         inquiry: this.state.inquiry,
+         name: this.state.name,       
          message: this.state.message
        })
          .then((response) => {
@@ -80,8 +78,7 @@ class ContactForm extends Component {
    emptyFields = () => {
      this.setState({
        name: '',
-       email: '',
-       inquiry: '',
+       email: '',      
        message: ''
      })
    }   
