@@ -138,7 +138,7 @@ class Home extends Component {
                   <h1 className='uk-margin-large-top uk-text-center'>- Specializes In -</h1>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
-                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator; animation:  uk-animation-slide-left, uk-animation-slide-right">
+                  <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator; animation:  uk-animation-slide-left, uk-animation-slide-right;">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">Rotator cuff/shoulder</h3>
                     <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='Rotator'>The glenohumeral joint in the shoulder is maybe the most incredible joint in the body, 
