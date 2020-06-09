@@ -55,9 +55,10 @@
 /* HOME */
 .headerHome{
     font-size: 80px;
+    
 }
 #wrapper1Home{
-    background: url('https://cdn.pixabay.com/photo/2014/03/11/22/56/wellness-285587_1280.jpg') no-repeat center center fixed;
+    background: url('./images/physiotherapy-567021_1920.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,8 +94,8 @@
     border-radius: 12px;
 }
 .muscleImages{
-    width: 100px !important;
-    height: 100px !important;
+    color: black !important;
+    
 }
 
 @media only screen and (max-width: 950px) {

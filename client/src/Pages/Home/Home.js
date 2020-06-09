@@ -15,11 +15,12 @@ class Home extends Component {
         <div id='wrapper1Home'>
           <div uk-grid='true'>
           <div className='uk-width-1-1 uk-margin-large-top uk-margin-large-bottom'>
-                <h1 className=' uk-text-center headerHome'>-Surreality-</h1>
+                <h1 className=' uk-text-center headerHome uk-visible@m'>-Surreality-</h1>
+                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-hidden@m'>-Surreality-</h1>
                 <h3 className='uk-text-center uk-visible@m' style={{color:'white'}}>
-                  Surreality is the elevated state of being that one <span style={{color:'black'}}>experiences when they receive an amazing massage.</span>
+                  Surreality is the elevated state of being that one <span style={{color:'white'}}>experiences when they receive an amazing massage.</span>
                         </h3>
-                        <h3 className='uk-text-center uk-hidden@m' style={{color:'black'}}>
+                        <h3 className='uk-text-center uk-hidden@m' style={{color:'white'}}>
                   Surreality is the elevated state of being that one experiences when they receive an amazing massage.
                         </h3>
                 <div className='uk-container'>
@@ -69,42 +70,59 @@ class Home extends Component {
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Sports; animation:  uk-animation-slide-top, uk-animation-slide-top">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center uk-remove-margin allCardText">Sports Massage</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Sports' hidden='true'><b>Sports info</b></p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Sports' hidden='true'>Active clients and athletes will especially benefit from 
+                    Sports Massage. Focused on improving athletic performance, it is often used for either pre event preparation of post event recovery with 
+                    sports and fitness competitions. Therapeutic stretching of varying techniques is usually always incorporated. This massage can be done 
+                    clothes on with athletic clothing.</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Deep; animation:  uk-animation-slide-top, uk-animation-slide-top">
                 <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center allCardText">Deep Tissue Massage</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Deep' hidden='true'>Deep Tissue info</p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Deep' hidden='true'>Depth of pressure is often an important part of successful 
+                  application of technique with massage therapy. Deep Tissue Massage is popular with many clients who enjoy a more transformative massage 
+                  rather than a relaxing one. By incorporating the use of elbows, forearms, and loose fist, this type of massage is well known for its 
+                  deeply effective results and higher levels of intensity.</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Reflexology; animation:  uk-animation-slide-top, uk-animation-slide-top">
                 <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center allCardText">Reflexology</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Reflexology' hidden='true'>Reflexology info</p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Reflexology' hidden='true'>There are times when the hands and feet just 
+                  need more attention with massage. Also often including the ears, scalp and face; a session of Reflexology promotes an experience 
+                  that is uniquely relaxing yet energizing. By using “Zone Therapy” and also identifying sensitive reflex points that correlate to 
+                  various organs or other areas of the body, this massage is also particularly balancing and detoxifying.</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Acupressure; animation:  uk-animation-slide-top, uk-animation-slide-top">
                 <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center allCardText">Acupressure</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Acupressure' hidden='true'>Acupressure Info</p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Acupressure' hidden='true'>As Qi flows through each of our bodies, 
+                  there are often areas where it becomes blocked and concentrated. With acupressure, sustained pressure on various master and 
+                  acupressure points can bring about incredible change in the body. Often times mood and attitude also receive benefits with 
+                  acupressure techniques, and this type of approach can bring a new level of body awareness to the client.</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1 '>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Swedish; animation:  uk-animation-slide-top, uk-animation-slide-top">
                 <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center allCardText ">Swedish Massage</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Swedish' hidden='true'> Swedish Massage info</p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Swedish' hidden='true'>With Swedish massage, you can relax and 
+                  let go without the intensity of a deep tissue massage. Effleurage and kneading are commonly used, as well as light to firm 
+                  pressure. If you are looking for a massage to ease stress and unwind with minimal pain, this is the best option for you.</p>
                 </div>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Trigger; animation:  uk-animation-slide-top, uk-animation-slide-top">
                 <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center allCardText">Trigger Point Therapy</h3>
-                  <p style={{color:'black'}} className='uk-text-center' id='Trigger' hidden='true'> Trigger Point Therapy info</p>
+                  <p style={{color:'black'}} className='uk-text-center ' id='Trigger' hidden='true'>Muscles inevitably develop adhesions and 
+                  localized areas of tension and dysfunction. Referred to as “Trigger Points,” you will know during a massage when you have 
+                  found one! Quality deep breathing and sustained pressure on these intense spots of discomfort can yield amazing results, 
+                  lowering pain levels and achieving harmony within body.</p>
                 </div>
               </div>
               
@@ -123,35 +141,60 @@ class Home extends Component {
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator; animation:  uk-animation-slide-left, uk-animation-slide-right">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">Rotator cuff/shoulder</h3>
-                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='Rotator'></img>
+                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='Rotator'>The glenohumeral joint in the shoulder is maybe the most incredible joint in the body, 
+                    yet often times the most commonly imbalanced. With the constant demand in our daily life, as well as movements through multiple planes of motion, 
+                    such as circumduction, it is not wonder our shoulders are so vulnerable to injury and pain. By addressing rotator cuff muscles like sub-scapularis 
+                    and Teres Minor, clinical shoulder work can be a huge wakeup call. Essential and usually incorporated in most sessions, the shoulder work done at Surreality 
+                    will change you and improve your life.</p>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #TMJ; animation:  uk-animation-slide-left, uk-animation-slide-right">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">TMJ</h3>
-                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='TMJ'></img>
+                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='TMJ'>Also referred to as Temporomandibular Dysfunction, or TMD, 
+                    many clients suffer from extreme jaw tension and pain within the surrounding muscles of the Temporomandibular joint. Intra oral massage 
+                    therapy is done with surgical gloves, addressing the jaw from inside the mouth. Many clients have not felt the powerfully sedating experience 
+                    of having muscles groups like the pterygoids or masseter addressed with this clinical technique. Controlled pincher compression of the face 
+                    and jaw is a specialized focus technique that will surely promote tension relief and Surreality states of consciousness.</p>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #hips; animation:  uk-animation-slide-left, uk-animation-slide-right">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">Anterior/posterior hip</h3>
-                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='hips'></img>
+                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='hips'>Considered to many the “link” between the lower and upper 
+                    body, clinical massage approach to the hips can promote a notable full body wellness. In the posterior hip, the piriformis attaches the 
+                    femur of the leg to the sacrum, or base of the spine, and severe tension unaddressed can cause sciatic nerve pain and other undesired nerve 
+                    involvement symptoms. Sitting is a common factor in anterior hip dysfunction, and prolonged periods can cause tension of iliopsoas and an 
+                    anterior tilt forward of the pelvis at the trunk, causing a domino effect of dysfunction across the whole body. If you have low back pain, 
+                    there is almost always a connection to an imbalance in the hips. Often addressed over the sheet, allow your body equanimity and sciatic 
+                    nerve pain relief with specialized hip focus at Surreality.</p>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #extremities; animation:  uk-animation-slide-left, uk-animation-slide-right">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">Extremities</h3>
-                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='extremities'></img>
+                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='extremities'>Massage of the extremities is essential and can 
+                    often times be intense. The Iliotibial band on the lateral quadricep of the upper leg is typically much more tight and over strengthened 
+                    then the muscles of the medial thigh. This can cause back pain and potentially put the ligaments of the knees and hips in a higher risk 
+                    of injury. Tendonitis and repetitive use injuries in the upper extremities are commonly seen and increasing in their frequency among 
+                    clients today. As technology and work demands for more repetitive use scenarios for our arms to manage, the need to address this with 
+                    massage therapy increases tenfold. Expect to feel much different after your session if you decide to request specialized focus of the 
+                    extremities at Surreality Massage.</p>
                   </div>
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1 uk-margin-large-bottom'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #neck; animation:  uk-animation-slide-left, uk-animation-slide-right">
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                     <h3 class="uk-card-title uk-text-center allCardText">Neck</h3>
-                    <img className='muscleImages' hidden='true' src='https://i.kym-cdn.com/entries/icons/mobile/000/001/313/DERP.jpg' className='uk-text-center' id='neck'></img>
+                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='neck'>Forward head posture, to at least some degree, is almost 
+                    always guaranteed in the majority of clients today. There are many contributing factors for this, including but not limited to; poor body 
+                    mechanics, weak core muscles, degenerative sleeping posture, work requirements, or trauma related injury. The neck is arguably the most 
+                    imbalanced area of the body in contention with the shoulders. The sub occipitals and splenius capitis are most commonly over used and 
+                    typically tight and sensitive. These are just two common areas to be addressed, in conjunction with the rest of the neck, with clinical 
+                    massage therapy applications at Surreality Massage.</p>
                   </div>
                 </div>
             </div>
