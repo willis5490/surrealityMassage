@@ -48,8 +48,8 @@ app.post('/sendEmail', function(req, res) {
     
     sgMail.setApiKey(process.env.REACT_APP_SENDGRID_KEY);
     const msg = {
-      to: "william.stearns303@gmail.com", 
-      from: "william.stearns303@gmail.com",
+      to: "surrealitymassage@gmail.com", 
+      from: "surrealitymassage@gmail.com",
       subject: Name + "wrote you an email for Surreality Massage",
       text: Message,
       html: Name + " has a message for Surreality Massage. The message says:   " + Message +".  Their email is " + Email,
