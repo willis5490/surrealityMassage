@@ -82,8 +82,8 @@
     background-color: #002434;
     position: relative;
 }
-.modalityCars:hover{
-    /* background-color: #AB8349 !important; */
+.specializeCards:hover{
+    background-color: #002434 !important;
 }
 .modalityCars{
     position: relative;
