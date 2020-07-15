@@ -24,12 +24,12 @@ class Home extends Component {
                   Surreality is the elevated state of being that one experiences when they receive an amazing massage.
                         </h3>
                 <div className='uk-container'>
-                <div style={{ backgroundColor: 'tan', padding: '10px' }} className='uk-margin-large-bottom'> 
-                  <p className='uk-margin-small-bottom uk-margin-remove-top'>Defined as:</p>
-                  <p className='uk-margin-small-bottom uk-margin-remove-top'><b>sur·real·i·ty</b> [suh-reel-i-tee] , noun </p>
-                  <p className='uk-margin-small-bottom uk-margin-remove-top'><i>adjective</i></p>
-                  <p className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>1. of, relating to, or a characteristic of surrealism, an artistic and literary style; surrealistic.</p>
-                  <p className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>2. having the disorienting, hallucinatory quality of a dream; unreal; fantastic: </p>
+                <div style={{ backgroundColor: 'white', padding: '10px' }} className='uk-margin-large-bottom'> 
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'>Defined as:</p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'><b>sur·real·i·ty</b> [suh-reel-i-tee] , noun </p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'><i>adjective</i></p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>1. of, relating to, or a characteristic of surrealism, an artistic and literary style; surrealistic.</p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>2. having the disorienting, hallucinatory quality of a dream; unreal; fantastic: </p>
 
                 </div>
                 </div>
