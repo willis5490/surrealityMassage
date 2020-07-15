@@ -10,7 +10,7 @@ class Header extends Component {
                 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" >
                     <nav id="headies" className="uk-navbar-container uk-margin uk-margin-auto uk-margin-auto-vertical" uk-navbar='true' uk-navbar="mode: click" >
                         <div className='uk-navbar-left uk-visible@m'>
-                            <a href='/'><img src='../images/color_logo_transparent.svg'  width="175" height="100" ></img></a>
+                            <a href='/'><img src='../images/color_logo_transparent.svg'  width="275" height="200" ></img></a>
                         </div>
                         <div className="uk-navbar-center uk-visible@m">
 
@@ -41,7 +41,7 @@ class Header extends Component {
                                             <li className="uk-nav-header">
                                                 <a className="uk-offcanvas-close" uk-close>X</a>
                                          
-                                                <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="../images/color_logo_transparent.svg" alt="" width="150" height="100"  ></img></a>
+                                                <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="../images/color_logo_transparent.svg" alt="" width="250" height="200"  ></img></a>
                                             </li>
                                             <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '2px solid white', width: '60%' }}></hr>
 
