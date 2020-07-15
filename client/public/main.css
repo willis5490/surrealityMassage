@@ -1,10 +1,10 @@
 /* Header */
 #headies{
     background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
-    -webkit-background-size:cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 #mobile-links{
     color: white;     
