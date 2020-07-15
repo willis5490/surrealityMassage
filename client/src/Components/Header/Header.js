@@ -15,9 +15,9 @@ class Header extends Component {
                         <div className="uk-navbar-center uk-visible@m">
 
                             <ul id="middlenav" className="uk-navbar-nav">    
-                            <li className=""><a id="mobile-links" href="/"><b><i>Home</i></b></a></li>                                                           
-                                <li className=""><a id="mobile-links" href="/About"><b><i>About</i></b></a></li>
-                                <li className=""><a id="mobile-links" href="/Contact"><b><i>Contact</i></b></a></li>                                                              
+                            <li className=""><a style={{fontSize:'25px'}} id="mobile-links" href="/"><b><i>Home</i></b></a></li>                                                           
+                                <li className=""><a style={{fontSize:'25px'}} id="mobile-links" href="/About"><b><i>About</i></b></a></li>
+                                <li className=""><a style={{fontSize:'25px'}} id="mobile-links" href="/Contact"><b><i>Contact</i></b></a></li>                                                              
 
                             </ul>
                         </div>
