@@ -17,6 +17,13 @@
 #mainButton{
     background-color: #AB8349;
 }
+.uk-offcanvas-bar{
+    background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
 
 /* Notifications */
 .Toastify__toast-container--bottom-center{
