@@ -1,3 +1,7 @@
+
+
+
+
 /* Header */
 #headies{
     background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
@@ -12,6 +16,10 @@
 .appointmentButton{
     margin-right: 25px;
     border-radius: 12px;
+}
+.headerHome{
+    /* font-family: 'Playball', cursive; */
+    font-family: 'Allura', cursive;
 }
 
 #mainButton{
