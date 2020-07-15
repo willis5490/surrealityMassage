@@ -25,11 +25,11 @@ class Home extends Component {
                         </h3>
                 <div className='uk-container'>
                 <div style={{ backgroundColor: 'white', padding: '10px' }} className='uk-margin-large-bottom'> 
-                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'>Defined as:</p>
-                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'><b>sur·real·i·ty</b> [suh-reel-i-tee] , noun </p>
-                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top'><i>adjective</i></p>
-                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>1. of, relating to, or a characteristic of surrealism, an artistic and literary style; surrealistic.</p>
-                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-margin-small-left'>2. having the disorienting, hallucinatory quality of a dream; unreal; fantastic: </p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-text-center'>Defined as:</p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-text-center'><b>sur·real·i·ty</b> [suh-reel-i-tee] , noun </p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-text-center'><i>adjective</i></p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-text-center uk-margin-small-left'>1. of, relating to, or a characteristic of surrealism, an artistic and literary style; surrealistic.</p>
+                  <p style={{color:'black'}} className='uk-margin-small-bottom uk-margin-remove-top uk-text-center uk-margin-small-left'>2. having the disorienting, hallucinatory quality of a dream; unreal; fantastic: </p>
 
                 </div>
                 </div>
