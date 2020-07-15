@@ -55,7 +55,7 @@ class Header extends Component {
                         </div>
                         <div className="uk-navbar-right uk-hidden@m">
                             <ul className="uk-navbar-nav">
-                            <a href='/Appointments'><button  style={{color:'white',backgroundColor:'#AB8349'}} className='uk-button appointmentButtonMobile'><b>SCHEDULE APPOINTMENT</b></button></a>
+                            <a href='/Appointments'><button id="mainButton"   style={{color:'white'}} className='uk-button appointmentButtonMobile'><b>SCHEDULE APPOINTMENT</b></button></a>
                             </ul>
                         </div>
                     </nav>
