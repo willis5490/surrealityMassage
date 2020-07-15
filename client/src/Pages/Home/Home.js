@@ -15,7 +15,7 @@ class Home extends Component {
         <div id='wrapper1Home'>
           <div uk-grid='true'>
           <div className='uk-width-1-1 uk-margin-large-top uk-margin-large-bottom'>
-                <h1 className=' uk-text-center headerHome uk-visible@m'>-Surreality-</h1>
+                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-visible@m'>-Surreality-</h1>
                 <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-hidden@m'>-Surreality-</h1>
                 <h3 className='uk-text-center uk-visible@m' style={{color:'white'}}>
                   Surreality is the elevated state of being that one <span style={{color:'white'}}>experiences when they receive an amazing massage.</span>
@@ -64,7 +64,7 @@ class Home extends Component {
           <div className='uk-container '>
             <div className='uk-margin-large-top uk-margin-large-bottom' uk-grid='true'>
               <div className='uk-width-1-1 uk-text-center '>
-                <h1  className=' uk-text-center'>- Modalities -</h1>
+                <h1 style={{color:'white'}}  className=' uk-text-center'>- Modalities -</h1>
               </div>
               <div className='uk-width-1-2@s uk-width-1-1'>
                 <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden modalityCars ' uk-toggle="target: #Sports; animation:  uk-animation-slide-top, uk-animation-slide-top">
@@ -139,9 +139,9 @@ class Home extends Component {
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #Rotator; animation:  uk-animation-slide-left, uk-animation-slide-right;">
-                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
-                    <h3 class="uk-card-title uk-text-center allCardText">Rotator cuff/shoulder</h3>
-                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='Rotator'>The glenohumeral joint in the shoulder is maybe the most incredible joint in the body, 
+                  <span style={{color:'white'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 style={{color:'white'}} class="uk-card-title uk-text-center allCardText">Rotator cuff/shoulder</h3>
+                    <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='Rotator'>The glenohumeral joint in the shoulder is maybe the most incredible joint in the body, 
                     yet often times the most commonly imbalanced. With the constant demand in our daily life, as well as movements through multiple planes of motion, 
                     such as circumduction, it is not wonder our shoulders are so vulnerable to injury and pain. By addressing rotator cuff muscles like sub-scapularis 
                     and Teres Minor, clinical shoulder work can be a huge wakeup call. Essential and usually incorporated in most sessions, the shoulder work done at Surreality 
@@ -150,9 +150,9 @@ class Home extends Component {
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #TMJ; animation:  uk-animation-slide-left, uk-animation-slide-right">
-                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
-                    <h3 class="uk-card-title uk-text-center allCardText">TMJ</h3>
-                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='TMJ'>Also referred to as Temporomandibular Dysfunction, or TMD, 
+                  <span style={{color:'white'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 style={{color:'white'}} class="uk-card-title uk-text-center allCardText">TMJ</h3>
+                    <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='TMJ'>Also referred to as Temporomandibular Dysfunction, or TMD, 
                     many clients suffer from extreme jaw tension and pain within the surrounding muscles of the Temporomandibular joint. Intra oral massage 
                     therapy is done with surgical gloves, addressing the jaw from inside the mouth. Many clients have not felt the powerfully sedating experience 
                     of having muscles groups like the pterygoids or masseter addressed with this clinical technique. Controlled pincher compression of the face 
@@ -161,9 +161,9 @@ class Home extends Component {
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #hips; animation:  uk-animation-slide-left, uk-animation-slide-right">
-                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
-                    <h3 class="uk-card-title uk-text-center allCardText">Anterior/posterior hip</h3>
-                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='hips'>Considered to many the “link” between the lower and upper 
+                  <span style={{color:'white'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 style={{color:'white'}} class="uk-card-title uk-text-center allCardText">Anterior/posterior hip</h3>
+                    <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='hips'>Considered to many the “link” between the lower and upper 
                     body, clinical massage approach to the hips can promote a notable full body wellness. In the posterior hip, the piriformis attaches the 
                     femur of the leg to the sacrum, or base of the spine, and severe tension unaddressed can cause sciatic nerve pain and other undesired nerve 
                     involvement symptoms. Sitting is a common factor in anterior hip dysfunction, and prolonged periods can cause tension of iliopsoas and an 
@@ -174,9 +174,9 @@ class Home extends Component {
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #extremities; animation:  uk-animation-slide-left, uk-animation-slide-right">
-                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
-                    <h3 class="uk-card-title uk-text-center allCardText">Extremities</h3>
-                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='extremities'>Massage of the extremities is essential and can 
+                  <span style={{color:'white'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 style={{color:'white'}} class="uk-card-title uk-text-center allCardText">Extremities</h3>
+                    <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='extremities'>Massage of the extremities is essential and can 
                     often times be intense. The Iliotibial band on the lateral quadricep of the upper leg is typically much more tight and over strengthened 
                     then the muscles of the medial thigh. This can cause back pain and potentially put the ligaments of the knees and hips in a higher risk 
                     of injury. Tendonitis and repetitive use injuries in the upper extremities are commonly seen and increasing in their frequency among 
@@ -187,9 +187,9 @@ class Home extends Component {
                 </div>
                 <div className='uk-width-1-2@s uk-width-1-1 uk-margin-large-bottom'>
                   <div className='uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-hidden specializeCards' uk-toggle="target: #neck; animation:  uk-animation-slide-left, uk-animation-slide-right">
-                  <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
-                    <h3 class="uk-card-title uk-text-center allCardText">Neck</h3>
-                    <p style={{color:'black'}} className='muscleImages' hidden='true' className='uk-text-center' id='neck'>Forward head posture, to at least some degree, is almost 
+                  <span style={{color:'white'}} className='infoIcon ' uk-icon="icon: info"></span>
+                    <h3 style={{color:'white'}} class="uk-card-title uk-text-center allCardText">Neck</h3>
+                    <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='neck'>Forward head posture, to at least some degree, is almost 
                     always guaranteed in the majority of clients today. There are many contributing factors for this, including but not limited to; poor body 
                     mechanics, weak core muscles, degenerative sleeping posture, work requirements, or trauma related injury. The neck is arguably the most 
                     imbalanced area of the body in contention with the shoulders. The sub occipitals and splenius capitis are most commonly over used and 

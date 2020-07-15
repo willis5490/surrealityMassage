@@ -1,6 +1,10 @@
 /* Header */
 #headies{
-    background-color: black;
+    background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 #mobile-links{
     color: white;     
@@ -30,7 +34,11 @@
       
 }
 #footerMainDiv{
-    background-color: #7D6036;
+    background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 /* About */
@@ -58,20 +66,20 @@
     
 }
 #wrapper1Home{
-    background: url('./images/physiotherapy-567021_1920.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url('./images/albert-bleeker-slpTDuenYeM-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 #wrapper3Home{
-    background-color: #AB8349;
+    background-color: #002434;
 }
 #wrapper1Contact{
-    background-color: #AB8349;
+    background-color: #002434;
 }
 .specializeCards{
-    background-color: #AB8349;
+    background-color: #002434;
     position: relative;
 }
 .modalityCars:hover{
@@ -125,6 +133,9 @@
         margin-left: 50px;
     }
 
+  .uk-sticky-placeholder{
+      height: 76px !important;
+  }
     
 
 }

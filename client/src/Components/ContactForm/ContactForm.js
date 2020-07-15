@@ -89,7 +89,7 @@ class ContactForm extends Component {
     return (
       <div id='' className=" ">
        <div className="uk-section">
-         <h1  id="contact" className="uk-heading-line uk-text-center uk-margin-medium-bottom sectionHeaders">{this.props.contactHeader}</h1>
+         <h1 style={{color: "white"}}  id="contact" className="uk-heading-line uk-text-center uk-margin-medium-bottom sectionHeaders">{this.props.contactHeader}</h1>
 
          {/* <h4 style={{color:'black'}} id='formheader' className='uk-text-center'>Fill out your information below.</h4> */}
 

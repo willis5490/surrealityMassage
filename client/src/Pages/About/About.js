@@ -17,8 +17,7 @@ class About extends Component {
             <div className='uk-container'>
                 <div className='' uk-grid='true'>
                     <div className='uk-width-1-1'>                        
-                        <img className='uk-margin-large-top uk-margin-large-bottom uk-align-center' src='https://nickevanson.files.wordpress.com/2013/04/kevin_emery01_tvb_mdv.jpg'></img>
-                        <p className='uk-text-center  aboutPara'>
+                        <p className='uk-text-center uk-margin-large-top  aboutPara'>
                         Adam McMahan LMT has been practicing massage therapy most of his adult life. The creator of Surreality Massage LLC, 
                         he expressed passion early on in life for massage and the healing arts. Encouraged by many, he attended the Cortiva 
                         Institute of Massage Therapy in Chicago, IL just after Graduating High School in 2005. In 2006, he then embarked on 

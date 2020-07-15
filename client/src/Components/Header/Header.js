@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+                <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" >
                     <nav id="headies" className="uk-navbar-container uk-margin uk-margin-auto uk-margin-auto-vertical" uk-navbar='true' uk-navbar="mode: click" >
                         <div className='uk-navbar-left uk-visible@m'>
                             <a href='/'><img src='../images/color_logo_transparent.svg'  width="175" height="100" ></img></a>
