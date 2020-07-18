@@ -34,7 +34,7 @@ class About extends Component {
                         In his free time, Adam likes to snowboard, play basketball, exercise at the gym, hike 14ers, practice Qi-gong, study 
                         astrology, enjoy live music, travel and spend time with his amazing friends and family.                       
                        </p>
-                       <p className='uk-text-center  uk-margin-large-bottom  aboutPara'> Adam has been successfully treating clients and gaining great report since 2006 and is ready to offer you the best 
+                       <p className='uk-text-center  uk-margin-large-bottom  aboutPara'> Adam has been successfully treating clients and gaining great rapport since 2006 and is ready to offer you the best 
                         massage you have ever received. Book a session with him at Surreality Massage today!</p>
                     </div>
                 </div>

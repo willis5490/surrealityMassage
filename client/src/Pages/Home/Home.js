@@ -15,8 +15,8 @@ class Home extends Component {
         <div id='wrapper1Home'>
           <div uk-grid='true'>
           <div className='uk-width-1-1 uk-margin-large-top uk-margin-large-bottom'>
-                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-visible@m'>-Surreality-</h1>
-                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-hidden@m'>-Surreality-</h1>
+                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-visible@m'>Surreality</h1>
+                <h1 style={{color:'white'}} className=' uk-text-center headerHome uk-hidden@m'>Surreality</h1>
                 <h3 className='uk-text-center uk-visible@m' style={{color:'white'}}>
                   Surreality is the elevated state of being that one <span style={{color:'white'}}>experiences when they receive an amazing massage.</span>
                         </h3>
@@ -71,7 +71,7 @@ class Home extends Component {
                   <span style={{color:'black'}} className='infoIcon ' uk-icon="icon: info"></span>
                   <h3 class="uk-card-title uk-text-center uk-remove-margin allCardText">Sports Massage</h3>
                   <p style={{color:'black'}} className='uk-text-center ' id='Sports' hidden='true'>Active clients and athletes will especially benefit from 
-                    Sports Massage. Focused on improving athletic performance, it is often used for either pre event preparation of post event recovery with 
+                    Sports Massage. Focused on improving athletic performance, it is often used for either pre event preparation or post event recovery with 
                     sports and fitness competitions. Therapeutic stretching of varying techniques is usually always incorporated. This massage can be done 
                     clothes on with athletic clothing.</p>
                 </div>
@@ -155,7 +155,7 @@ class Home extends Component {
                     <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='TMJ'>Also referred to as Temporomandibular Dysfunction, or TMD, 
                     many clients suffer from extreme jaw tension and pain within the surrounding muscles of the Temporomandibular joint. Intra oral massage 
                     therapy is done with surgical gloves, addressing the jaw from inside the mouth. Many clients have not felt the powerfully sedating experience 
-                    of having muscles groups like the pterygoids or masseter addressed with this clinical technique. Controlled pincher compression of the face 
+                    of having muscle groups like the pterygoids or masseter addressed with this clinical technique. Controlled pincher compression of the face 
                     and jaw is a specialized focus technique that will surely promote tension relief and Surreality states of consciousness.</p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ class Home extends Component {
                     <p style={{color:'white'}} className='muscleImages' hidden='true' className='uk-text-center' id='hips'>Considered to many the “link” between the lower and upper 
                     body, clinical massage approach to the hips can promote a notable full body wellness. In the posterior hip, the piriformis attaches the 
                     femur of the leg to the sacrum, or base of the spine, and severe tension unaddressed can cause sciatic nerve pain and other undesired nerve 
-                    involvement symptoms. Sitting is a common factor in anterior hip dysfunction, and prolonged periods can cause tension of iliopsoas and an 
+                    involvement symptoms. Sitting is a common factor with anterior hip dysfunction, and prolonged periods can cause tension of iliopsoas and an 
                     anterior tilt forward of the pelvis at the trunk, causing a domino effect of dysfunction across the whole body. If you have low back pain, 
                     there is almost always a connection to an imbalance in the hips. Often addressed over the sheet, allow your body equanimity and sciatic 
                     nerve pain relief with specialized hip focus at Surreality.</p>

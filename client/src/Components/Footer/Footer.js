@@ -34,7 +34,7 @@ class Footer extends Component {
           </div>
           <div className='uk-width-1-1 uk-width-1-3@m uk-flex-first uk-flex-last@m '>
             <div className='uk-text-center uk-margin-small-bottom'>
-               <a href='/'><img src='../images/dark_logo_transparent.svg'  width="175" height="100" ></img></a>
+               <a href='/'><img src='../images/color_logo_transparent.svg'  width="175" height="100" ></img></a>
             </div>
           </div>
         </div>
