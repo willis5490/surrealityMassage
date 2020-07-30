@@ -19,7 +19,7 @@ class Footer extends Component {
               <p style={{color:'white'}} className='uk-margin-remove-bottom'><b>CALL US !</b></p>
               <a style={{color:'white'}} className='uk-margin-remove-top' href="tel:630 292 0176">630-292-0176</a>
               <p style={{color:'white'}} className='uk-margin-remove-bottom'><b>FIND US !</b></p>
-              <a style={{color:'white'}} className='uk-margin-remove-top ' href="https://maps.google.com/maps/search/?api=1&query=39.684620,-104.936880">1780 S Bellaire St. #260 <br></br> Denver, CO 80222</a>
+              <a style={{color:'white'}} className='uk-margin-remove-top ' href="https://maps.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.4490693959656!2d-104.93920854936869!3d39.684605979356164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7ddfdbf4467d%3A0x72a6e8b41cf03aa6!2s1780%20S%20Bellaire%20St%20%23260%2C%20Denver%2C%20CO%2080222!5e0!3m2!1sen!2sus!4v1579222056165!5m2!1sen!2sus">1780 S Bellaire St. #260 <br></br> Denver, CO 80222</a>
               <div className='uk-margin-small-top'>
               <iframe id='googleMaps' src="https://maps.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.4490693959656!2d-104.93920854936869!3d39.684605979356164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7ddfdbf4467d%3A0x72a6e8b41cf03aa6!2s1780%20S%20Bellaire%20St%20%23260%2C%20Denver%2C%20CO%2080222!5e0!3m2!1sen!2sus!4v1579222056165!5m2!1sen!2sus" width="300" height="200" frameborder="0"  allowfullscreen=""></iframe>
               </div>
